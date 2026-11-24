@@ -1,0 +1,38 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rproj
+rsconnect/
+
+# Tableau temporary / backup files
+*.twbr
+*.tmp
+~*.twb
+
+# Large ABS boundary files (download with data/scripts/download_boundaries.sh)
+data/raw/SAL_2021_AUST_GDA94_SHP/
+data/raw/SUA_2021_AUST_GDA94/
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.CPG
+
+# Office lock files
+~$*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (none are needed, but never commit them)
+.env
+*.pem
